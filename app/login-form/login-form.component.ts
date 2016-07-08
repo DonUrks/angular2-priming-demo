@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {FORM_DIRECTIVES,REACTIVE_FORM_DIRECTIVES,Validators,FormControl,FormGroup} from '@angular/forms';
+import { FORM_DIRECTIVES,REACTIVE_FORM_DIRECTIVES,Validators,FormControl,FormGroup } from '@angular/forms';
 import { Button } from 'primeng/primeng';
 import { NgForm }    from '@angular/common';
 import { InputText } from 'primeng/primeng';
@@ -14,7 +14,7 @@ import { Login }    from './login';
 })
 export class LoginFormComponent extends OnInit {
     loginForm: FormGroup;
-
+    
     submitted = false;
     
     ngOnInit() {
